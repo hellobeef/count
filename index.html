@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,8 +112,17 @@
             color: #5f6368;
             font-size: 1.1rem;
         }
+
+        /* 添加作者信息样式 */
+       .author-info {
+            text-align: center;
+            color: #777;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h2 class="title">随机数字生成器</h2>
@@ -132,6 +142,8 @@
             <div class="result-number" id="resultNumber">-</div>
             <div class="result-text">点击按钮生成随机数</div>
         </div>
+        <!-- 添加作者信息展示区域 -->
+        <div class="author-info">快手号:zh_beiyuan</div>
         <canvas id="canvas" style="display: none;"></canvas>
     </div>
 
@@ -188,4 +200,5 @@
         }
     </script>
 </body>
+
 </html>
